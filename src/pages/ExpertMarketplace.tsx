@@ -348,7 +348,7 @@ const ExpertMarketplace = () => {
     <div className="min-h-screen bg-background scrollbar-hide">
       {/* Header */}
       <header className="bg-white border-b border-border">
-        <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6">
+        <div className="max-w-8xl mx-auto px-2 sm:px-4 lg:px-6">
           <div className="flex items-center justify-between h-16">
             {/* Left - Logo */}
             <button 
@@ -419,7 +419,7 @@ const ExpertMarketplace = () => {
 
       {/* Category Filters */}
       <div className="bg-background">
-        <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6 py-4">
+        <div className="max-w-8xl mx-auto px-2 sm:px-4 lg:px-6 py-4">
           <div className="overflow-x-auto scrollbar-hide py-1">
             <div className="flex gap-2 min-w-max">
               <Button
