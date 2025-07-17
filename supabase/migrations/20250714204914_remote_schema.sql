@@ -34,7 +34,7 @@ alter table "public"."expert_categories" alter column "sort_order" drop default;
 
 alter table "public"."expert_categories" alter column "sort_order" set data type smallint using "sort_order"::smallint;
 
-alter table "public"."profiles" drop column "home_country";
+-- alter table "public"."profiles" drop column "home_country";
 
 alter table "public"."profiles" add column "expert_rank" integer;
 
